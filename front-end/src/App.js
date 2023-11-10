@@ -14,6 +14,14 @@ function App() {
         >
           Press here to go to the back-end first link
         </a>
+        <a
+          className="App-link"
+          href="http://127.0.0.1:5000/python"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          or press here to run backend in Python
+        </a>
       </header>
     </div>
   );

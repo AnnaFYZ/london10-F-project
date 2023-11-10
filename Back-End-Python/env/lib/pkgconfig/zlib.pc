@@ -1,0 +1,13 @@
+prefix=/home/anna/Documents/CYFprojects/Final Project/london10-F-project/Back-End-Python/env
+exec_prefix=/home/anna/Documents/CYFprojects/Final Project/london10-F-project/Back-End-Python/env
+libdir=/home/anna/Documents/CYFprojects/Final Project/london10-F-project/Back-End-Python/env/lib
+sharedlibdir=/home/anna/Documents/CYFprojects/Final Project/london10-F-project/Back-End-Python/env/lib
+includedir=/home/anna/Documents/CYFprojects/Final Project/london10-F-project/Back-End-Python/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
